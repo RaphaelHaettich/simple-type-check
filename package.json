@@ -1,6 +1,6 @@
 {
   "name": "simple-type-check",
-  "version": "0.0.0-development",
+  "version": "1.0.0-development",
   "description": "simple script to check type",
   "main": "dist/simpleTypeCheck.min.js",
   "scripts": {
