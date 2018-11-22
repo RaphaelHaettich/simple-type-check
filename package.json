@@ -17,7 +17,10 @@
   "keywords": [
     "type",
     "javascript",
-    "check"
+    "check",
+    "prop",
+    "types",
+    "check-types"
   ],
   "private": false,
   "author": "Raphael Hättich",
