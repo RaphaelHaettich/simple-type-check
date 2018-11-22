@@ -8,7 +8,8 @@
     "build": "google-closure-compiler --js=src/index.js --js_output_file=dist/simpleTypeCheck.min.js --language_out=ECMASCRIPT3 --assume_function_wrapper",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
-    "commit": "sgc"
+    "commit": "sgc",
+    "mocha": "mocha \"test/**/*.spec.js\""
   },
   "repository": {
     "type": "git",
