@@ -4,7 +4,6 @@
   "description": "simple script to check type",
   "main": "dist/simpleTypeCheck.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "google-closure-compiler --js=src/index.js --js_output_file=dist/simpleTypeCheck.min.js --language_out=ECMASCRIPT3 --assume_function_wrapper",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
@@ -20,6 +19,7 @@
     "javascript",
     "check"
   ],
+  "private": false,
   "author": "Raphael Hättich",
   "license": "MIT",
   "bugs": {
