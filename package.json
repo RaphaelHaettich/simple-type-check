@@ -18,6 +18,7 @@
     "javascript",
     "check"
   ],
+  "private": false,
   "author": "Raphael Hättich",
   "license": "MIT",
   "bugs": {
