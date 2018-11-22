@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/RaphaelHaettich/simple-type-check#readme",
   "devDependencies": {
+    "@semantic-release/git": "^7.0.5",
     "chai": "^4.2.0",
     "google-closure-compiler": "^20181028.0.1",
     "mocha": "^5.2.0",
