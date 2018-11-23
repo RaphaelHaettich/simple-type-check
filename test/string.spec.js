@@ -42,4 +42,12 @@ describe('check type string', () => {
         const receivedResult = simpleTypeCheck(value, type, false);
         expect(receivedResult).to.be.equal(expectedResult);
     });
+    
+    it('Array is detected as not a string', () => {
+        const expectedResult = false;
+        const value = [];
+        const type = 'string';
+        const receivedResult = simpleTypeCheck(value, type, false);
+        expect(receivedResult).to.be.equal(expectedResult);
+    });
 });
