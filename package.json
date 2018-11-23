@@ -8,7 +8,9 @@
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
     "commit": "sgc",
-    "mocha": "mocha \"test/**/*.spec.js\""
+    "test": "mocha \"test/**/*.spec.js\"",
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "lint-fix": "eslint --fix src/**/*.js test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -35,6 +37,9 @@
     "@semantic-release/npm": "^5.1.1",
     "@semantic-release/release-notes-generator": "^7.1.4",
     "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "google-closure-compiler": "^20181028.0.1",
     "mocha": "^5.2.0",
     "semantic-git-commit-cli": "^3.1.0",
