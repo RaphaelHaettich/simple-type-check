@@ -5,6 +5,7 @@
 [![NPM version](https://img.shields.io/npm/v/simple-type-check.svg?style=flat)](https://www.npmjs.com/package/simple-type-check)
 [![GitHub issues](https://img.shields.io/github/issues/RaphaelHaettich/simple-type-check.svg)](https://github.com/RaphaelHaettich/simple-type-check/issues)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![Code Style](https://badgen.net/badge/code%20style/Airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
 
 
 # simple-type-check
