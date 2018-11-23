@@ -10,7 +10,7 @@ describe('check type null', () => {
         const receivedResult = simpleTypeCheck(value, type, false);
         expect(receivedResult).to.be.equal(expectedResult);
     });
-    
+
     it('object is detected as null', () => {
         const expectedResult = true;
         const value = {};

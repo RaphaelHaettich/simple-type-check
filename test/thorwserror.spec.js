@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const { assert, expect } = require('chai');
+const { expect } = require('chai');
 const simpleTypeCheck = require('../src');
 
 describe('check type array', () => {

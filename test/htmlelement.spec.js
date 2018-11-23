@@ -3,12 +3,12 @@ const { expect } = require('chai');
 const { JSDOM } = require('jsdom');
 const simpleTypeCheck = require('../src');
 
-const dom = new JSDOM(`<!DOCTYPE html><p id="testId">Hello world</p>`);
+const dom = new JSDOM('<!DOCTYPE html><p id="testId">Hello world</p>');
 
 describe('check type HTMLElement', () => {
     it('HTMLElement is detected as HTMLElement', () => {
         const expectedResult = true;
-        const value = dom.window.document.querySelector("#testId");
+        const value = dom.window.document.querySelector('#testId');
         const type = dom.window.HTMLElement;
         const receivedResult = simpleTypeCheck(value, type, false);
         expect(receivedResult).to.be.equal(expectedResult);
