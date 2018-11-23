@@ -1,4 +1,5 @@
-const expect = require('chai').expect;
+/* eslint-disable no-undef */
+const { expect } = require('chai');
 const simpleTypeCheck = require('../src');
 
 describe('check type string', () => {
