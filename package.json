@@ -22,7 +22,10 @@
     "check",
     "prop",
     "types",
-    "check-types"
+    "check-types",
+    "small",
+    "type-check",
+    "module"
   ],
   "private": false,
   "author": "Raphael Hättich",
