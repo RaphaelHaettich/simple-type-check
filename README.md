@@ -62,6 +62,7 @@ const result = simpleTypeCheck(value , type);
 ```
 ### Testet types
 The following types are testet, anything different should work too. You are welcome to add a PR with the test for more types.
+
 | Type | Works |
 |--|--|
 | ```Array``` | ✅ |
