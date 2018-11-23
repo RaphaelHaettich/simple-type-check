@@ -1,3 +1,7 @@
 module.exports = {
-    "extends": "airbnb-base"
+    "extends": "airbnb-base",
+    "rules": {
+        'valid-typeof': ['error', { requireStringLiterals: false }],
+        "indent": ["error", 4]
+    }
 };
