@@ -69,7 +69,7 @@ The following types are testet, anything different should work too. You are welc
 | ```HTMLElement``` | ✅ |
 | ```'number'``` | ✅ |
 | ```'function'``` | ✅ |
-| ```'bool'``` | ✅ |
+| ```'boolean'``` | ✅ |
 | ```'object'``` | ✅ |
 | ```'string'``` | ✅ |
 | ```'undefined'``` | ✅ |
